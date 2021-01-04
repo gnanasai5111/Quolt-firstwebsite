@@ -5,6 +5,7 @@
   color: #000000;
 }
 
+
 /* body {
   overflow-x: hidden;
 } */
@@ -12,7 +13,9 @@
 .videorow{
   margin-right: 0;
 }
-
+.homevideo{
+  padding-left:30px;
+}
 .navbar {
   background-color: #ffffff;
   background: #ffffff;
