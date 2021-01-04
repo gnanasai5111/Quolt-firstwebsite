@@ -1,0 +1,49 @@
+
+/* our process heading */
+.ourprocessheading{
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 10px;
+  line-height: 1.2;
+  font-weight: bolder;
+  font-size:1.5rem;
+  text-transform: uppercase;
+  margin-bottom:4rem;
+
+}
+/* background image for process */
+.process-images{
+  background-size:207px 348px;
+  background-position:center;
+  height: 250px;
+  width:100%;
+  background-repeat: no-repeat;
+}
+
+/* process section margin */
+.process {
+  margin-top: 200px;
+}
+
+/* process section background color */
+.processbackground {
+  background-color: white;
+  padding: 45px 0;
+  min-height: 700px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.processbackground:after {
+  display: block;
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #f4f4f4;
+  bottom: 0;
+  clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+}
+
+.processvisible {
+  z-index: 1;
+}

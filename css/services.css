@@ -1,0 +1,24 @@
+/* our services heading */
+.servicesheading{
+  margin-top: 100px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 10px;
+  line-height: 1.2;
+  font-weight: bolder;
+  font-size:1.5rem;
+  text-transform: uppercase;
+}
+/* services section */
+.myservices{
+  margin-top:100px;
+}
+/* heading and paragraph of services section */
+.txt{
+  text-align: left;
+  margin-bottom:auto;
+  margin-top: auto;
+}
+.servicesparagraph{
+  padding-top: 25px;
+  line-height: 2;
+}

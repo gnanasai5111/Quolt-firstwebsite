@@ -1,0 +1,23 @@
+.contactinfo{
+  margin-top: 100px;
+}
+/* footer */
+.lastfooter{
+  margin-top: 100px;
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 8px;
+}
+/* removing bullet points and padding */
+.nostyle{
+  list-style-type: none;
+  padding-left: 12px;
+}
+/* map */
+.mapvideo{
+  position: relative;
+}
+.container video {
+  position: relative;
+  z-index: 0;
+}

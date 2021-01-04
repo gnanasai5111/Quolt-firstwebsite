@@ -1,0 +1,107 @@
+@media (max-width:768px) {
+
+  /* sideheadig and icons removed */
+  .sideheading, .icons, .overlaytext {
+    display: none;
+  }
+
+  /* making our work section images of full width */
+  .ourworkimage {
+    width: 100%;
+  }
+
+  /* removing padding and setting object posotion so it touches end to end */
+  .first, .last {
+    padding: 0;
+  }
+
+  .iot, .sanitary, .cutlery, .arduino, .toaster, .logo {
+    object-position: 0 !important;
+  }
+
+  .faucet, .gameboy, .dwarf ,.vortex{
+    object-position: 0 !important;
+  }
+  .chair {
+    object-position: -171px !important;
+  }
+
+  .directionpad {
+    object-position: -59px !important;
+  }
+
+  .lcr {
+    object-position: -170px !important;
+  }
+
+  .modulos {
+    object-position: -172px !important;
+  }
+
+  /* padding in our service section (text and gif) */
+  .txt {
+    padding-top: 30px;
+  }
+  .loading{
+    width:200px;
+  }
+
+  /* pin drop */
+  /* .map-pin {
+    display: none;
+  } */
+}
+@media (max-width:540px) {
+  /* popup window closing button */
+  .close {
+    position: fixed;
+    right: 10px;
+  }
+
+}
+/* pop up window size for big screens */
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+    max-width: 1373px;
+  }
+
+  .col-md-6 {
+    max-width: 100%;
+  }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+  /* our service text description */
+  .txt {
+    padding-top: 30px;
+  }
+/* hiding icons sideheading and text on video */
+  .sideheading, .icons, .overlaytext {
+    display: none;
+  }
+/* pin drop animation */
+  /* .map-pin {
+    display: none;
+  } */
+}
+/* hiding our work section in tablet mode */
+@media (min-width: 768px) and (max-width: 1280px) {
+  #ourworksversion2{
+    display:block !important;
+  }
+  #ourworks{
+    display: none;
+  }
+}
+@media (min-width:993px) and (max-width:1250px) {
+  .icons{
+    display: none;
+  }
+  }
+@media (max-width:320px) {
+  .borderforworks, .borderforservices {
+    border:none;
+  }
+
+}

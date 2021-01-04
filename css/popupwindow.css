@@ -1,0 +1,27 @@
+/* pop up winow */
+.modal{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-right: 0 !important;
+}
+/* content inside popup */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #fff;
+}
+
+/* close window */
+.close{
+  margin-left: auto;
+}
+/* image width and height */
+.img-responsive{
+  height:auto;
+  display: block;
+  max-width: 100%;
+}
+.popup-heading{
+  font-size: 50px;
+}

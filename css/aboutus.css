@@ -1,0 +1,19 @@
+.Aboutusheading {
+  margin-top: 100px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 10px;
+  line-height: 1.2;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+.aboutusimage{
+  width:100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 60px;
+
+}

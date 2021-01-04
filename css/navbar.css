@@ -1,0 +1,238 @@
+/* Navigation Bar on hover moves up and down */
+.hoverable:hover {
+  animation-name: mymove;
+  animation-duration: 2s;
+  color: #000000;
+}
+
+/* body {
+  overflow-x: hidden;
+} */
+
+.videorow{
+  margin-right: 0;
+}
+
+.navbar {
+  background-color: #ffffff;
+  background: #ffffff;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar .navbar-brand {
+  padding-left: 100px;
+}
+
+.barpadding {
+  padding-right: 100px;
+}
+
+/* navigation bar list items  */
+.hoverable {
+  font-family: 'Roboto', sans-serif;
+  line-height: 24px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #111111;
+}
+
+/* videosecton */
+.homevideo {
+  margin-top: 40px;
+}
+
+/* heading on the side of video */
+.sideheading {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  /* margin-bottom: 220px; */
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 10px;
+  line-height: 26px;
+  font-weight: 500;
+  padding-right: 80px;
+}
+
+/* icons */
+.icons {
+  writing-mode: vertical-rl;
+  /* margin-top: 300px; */
+  margin: auto;
+  padding-right: 80px;
+}
+
+/* icons padding */
+.homeicon {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+
+/* adding text on video(overlaytext) */
+.container {
+  position: relative;
+}
+
+.container video {
+  position: relative;
+  z-index: 0;
+}
+
+.overlaytext {
+  position: absolute;
+  z-index: 1;
+  top: 300px;
+  left: 100px;
+  color: #ffffff;
+}
+
+.quolt {
+  z-index: 6;
+  font-family: Roboto;
+  height: auto;
+  width: auto;
+  /* color: rgb(0, 0, 0); */
+  text-decoration: none;
+  white-space: nowrap;
+  min-height: 0;
+  min-width: 0;
+  max-height: none;
+  max-width: none;
+  text-align: inherit;
+  line-height: 63px;
+  letter-spacing: 0;
+  font-weight: 700;
+  font-size: 60px;
+  transform-origin: 50% 50%;
+  opacity: 1;
+  transform: translate(0, 0);
+  visibility: visible;
+  padding-bottom: 10px;
+}
+
+.paragraph {
+  z-index: 7;
+  font-family: Roboto;
+  height: auto;
+  width: auto;
+  /* color: rgb(0, 0, 0); */
+  text-decoration: none;
+  white-space: nowrap;
+  min-height: 0;
+  min-width: 0;
+  max-height: none;
+  max-width: none;
+  text-align: inherit;
+  line-height: 28px;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-size: 16px;
+  transform-origin: 50% 50%;
+  opacity: 1;
+  transform: translate(0, 0);
+  visibility: visible;
+}
+
+/* headings */
+.sideheading .leftheading{
+  font-size: 1.125rem;
+}
+
+/* navigation bar item animation text moving up and down on clicking */
+@keyframes mymove {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+/* overlaytext animation */
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0)
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0)
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1
+  }
+}
+
+.animated {
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+}
+
+.animatedFadeInUp {
+  opacity: 0
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
+}
+/* rotating icons */
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

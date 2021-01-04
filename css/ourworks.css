@@ -1,0 +1,86 @@
+.ourworks {
+  margin-top: 40px;
+}
+
+.worksheading {
+  margin-top: 100px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 10px;
+  line-height: 1.2;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+figure:hover .ourworkimage{
+  filter: brightness(20%);
+}
+figure:hover .overlayheading{
+  opacity: 1;
+}
+
+.overlayheading {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  /* transition: .5s ease; */
+}
+
+/* set padding for images to stay close */
+.first {
+  padding-right: 0 !important;
+}
+
+.middle {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.last {
+  padding-left: 0 !important;
+}
+
+/* width and height of images */
+.ourworkimage {
+  height: 400px;
+  width: 400px;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.tatooimage {
+  height: 800px;
+}
+
+.ourworkfigure {
+  margin: 0 0 0 !important;
+  position: relative;
+}
+
+figure:hover .overlayheading {
+  opacity: 1;
+}
+
+/* border for works */
+.borderforworks, .borderforservices {
+  border: solid;
+  border-Width: 3px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  animation: animatedgradient 5s ease alternate infinite;
+}
+
+/* background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82); */
+@keyframes animatedgradient {
+  0% {
+    border-color: #1098ad;
+  }
+
+  100% {
+    border-color: #07b39b;
+    border-color: rgba(0, 0, 0, 0.4);
+  }
+}
